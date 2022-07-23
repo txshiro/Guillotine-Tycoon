@@ -12,7 +12,7 @@ getgenv().autodeposit = false
 getgenv().nextguillotine = false
 getgenv().pertick = false
 
-plr = game.Players.Locaplrlayer
+plr = game.Players.LocalPlayer
 plot = nil
 
 for _,v in pairs(workspace.Plots:GetChildren()) do
